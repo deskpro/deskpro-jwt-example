@@ -1,4 +1,7 @@
 <?php
+
+include "vendor/autoload.php";
+
 $CONFIG = array();
 
 //

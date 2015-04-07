@@ -4,8 +4,8 @@
  * This is a complete representation of an external website that uses SSO with DeskPRO
  */
 
-require_once "AuthSystem.php";
 require_once "config.php";
+require_once "AuthSystem.php";
 
 $authSystem = new AuthSystem();
 

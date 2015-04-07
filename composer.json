@@ -1,0 +1,13 @@
+{
+    "name": "deskpro/deskpro-jwt-example",
+    "description": "JWT Server Implementation",
+    "require": {
+        "firebase/php-jwt": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Chris Tickner",
+            "email": "chris.tickner@deskpro.com"
+        }
+    ]
+}

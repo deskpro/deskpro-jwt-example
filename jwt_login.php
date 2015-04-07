@@ -1,8 +1,7 @@
 <?php
 
-require_once "AuthSystem.php";
-require_once "JWT.php";
 require_once "config.php";
+require_once "AuthSystem.php";
 
 $authSystem = new AuthSystem();
 
@@ -37,7 +36,7 @@ $token = array(
 	//"last_name"  => $user['last_name'],
 );
 
-$jwt = JWT::encode($token, $CONFIG['secret']);
+$jwt = \JWT::encode($token, $CONFIG['secret']);
 /*
  * End generate JWT token
  ***********************************************************************/

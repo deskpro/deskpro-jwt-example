@@ -4,11 +4,15 @@ Intended to be used in the native DeskPRO app "JWT Auth" app for testing purpose
 
 ## Setup
 
-STEP 1: cd to this directory and execute:
+STEP 1: cd to this directory and install vendors:
+
+composer install
+
+STEP 2: start the local server
 
 php -S localhost:8003
 
-STEP 2: Add the JWT auth app with the following:
+STEP 3: Add the JWT auth app with the following:
 
  - Make sure that "Enabled" is checked
  - Secret: deskpro_secret
