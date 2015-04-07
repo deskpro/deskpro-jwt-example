@@ -17,6 +17,7 @@ STEP 3: Add the JWT auth app with the following:
  - Make sure that "Enabled" is checked
  - Secret: deskpro_secret
  - Remote Login URL: http://localhost:8003/jwt_login.php
+ - Decrypt Algorithm: HS256
  - Custom Button Text: "Company XYZ"
  - Agent (or User) Logout Redirect: http://google.com
 
