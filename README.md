@@ -27,11 +27,11 @@ The Custom Button Text is optional, and is only useful if you want to allow the 
 
 ## Use
 
-STEP 3: After you install the app, you can use the "TEST" button to test your implementation. If you change settings be sure to save before using the "TEST" button.
+STEP 4: After you install the app, you can use the "TEST" button to test your implementation. If you change settings be sure to save before using the "TEST" button.
 
-STEP 4: Now login to DeskPRO using it. If you enabled automatic SSO, then it will just work. If you use background SSO, it will only work if you are authenticated at the remote site. If you disable SSO you can only authenticate by clicking the "Login with Company XYZ" button.
+STEP 5: Now login to DeskPRO using it. If you enabled automatic SSO, then it will just work. If you use background SSO, it will only work if you are authenticated at the remote site. If you disable SSO you can only authenticate by clicking the "Login with Company XYZ" button.
 
-STEP 5: visiting http://localhost:8003 shows you that you can link back to your helpdesk from within your site, and the SSO rules will just work. Logout of deskpro and head to this url and click on the link that is secured by this JWT server (first, make sure config.php has the right URLs). If automatic SSO is enabled you will be "magically" authenticated, just by clicking that link.
+STEP 6: visiting http://localhost:8003 shows you that you can link back to your helpdesk from within your site, and the SSO rules will just work. Logout of deskpro and head to this url and click on the link that is secured by this JWT server (first, make sure config.php has the right URLs). If automatic SSO is enabled you will be "magically" authenticated, just by clicking that link.
 
 ### Valid Logins
 
