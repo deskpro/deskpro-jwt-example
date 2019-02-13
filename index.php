@@ -49,6 +49,7 @@ if ($authSystem->isAuthenticated()) {
 		<li><a href="index.php">Home</a></li>
 		<li><a href="<?php echo $CONFIG['deskpro_agent_url']; ?>">Agent HelpDesk (DeskPRO)</a></li>
 		<li><a href="<?php echo $CONFIG['deskpro_user_url']; ?>">User Support (DeskPRO)</a></li>
+        <li><a href="query_api.php">Test API Query</a></li>
 		<li><a href="index.php?logout=1">Logout</a></li>
 	</ul>
 	<h3>User Info</h3>

@@ -2,7 +2,8 @@
     "name": "deskpro/deskpro-jwt-example",
     "description": "JWT Server Implementation",
     "require": {
-        "firebase/php-jwt": "~2.0"
+        "firebase/php-jwt": "~2.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "authors": [
         {
