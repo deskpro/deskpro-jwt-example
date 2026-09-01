@@ -76,7 +76,7 @@ if ($authSystem->isAuthenticated()) {
 			<input type="hidden" name="jwt_initiated" value="1">
 		<?php } ?>
 		<?php if (isset($_REQUEST['return'])) { ?>
-			<input type="hidden" name="return" value="<?php echo $_REQUEST['return']; ?>">
+			<input type="hidden" name="return" value="<?php echo htmlspecialchars($_REQUEST['return'], ENT_QUOTES); ?>">
 		<?php } ?>
 		<table>
 			<tr>
