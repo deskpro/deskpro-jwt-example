@@ -23,6 +23,10 @@ STEP 3: Add the JWT auth app with the following:
 
 These values work for this test server. Obviously, these values should change to be whatever values work with your implementation. When you change your secret, you'll need to update the JWT app in your helpdesk. Same with your endpoint, and the logout URL. 
 
+**`deskpro_secret` is a sample value for this test server only.** Replace it with a unique, hard-to-guess secret before using this pattern anywhere real -- anyone who has the secret can mint their own valid tokens.
+
+**Validate the `return` URL before using it.** This example only ever redirects the signed token back to the configured helpdesk host (see `jwt_login.php`). If your real implementation skips that check, an attacker can supply their own `return` value and have your server hand a valid, signed token straight to them.
+
 The Custom Button Text is optional, and is only useful if you want to allow the user to click a button to login with JWT (it will simply direct the user to your Remote Login URL with the proper return URL).
 
 ## Use
